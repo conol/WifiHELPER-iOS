@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B8258E1FBC77940097050B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8258D1FBC77940097050B /* AppDelegate.swift */; };
+		14B825901FBC77940097050B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8258F1FBC77940097050B /* ViewController.swift */; };
+		14B825931FBC77940097050B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B825911FBC77940097050B /* Main.storyboard */; };
+		14B825951FBC77940097050B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B825941FBC77940097050B /* Assets.xcassets */; };
+		14B825981FBC77940097050B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B825961FBC77940097050B /* LaunchScreen.storyboard */; };
+		14B825A31FBC77940097050B /* wifiHelper_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B825A21FBC77940097050B /* wifiHelper_iOSTests.swift */; };
+		14B825AE1FBC77940097050B /* wifiHelper_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B825AD1FBC77940097050B /* wifiHelper_iOSUITests.swift */; };
+		14B825BC1FBC77B20097050B /* WifiHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B825BB1FBC77B20097050B /* WifiHelper.framework */; };
+		14B825BD1FBC77B20097050B /* WifiHelper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14B825BB1FBC77B20097050B /* WifiHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14B825C41FBC7A6F0097050B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B825C31FBC7A6F0097050B /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B8259F1FBC77940097050B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B825821FBC77940097050B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B825891FBC77940097050B;
+			remoteInfo = "wifiHelper-iOS";
+		};
+		14B825AA1FBC77940097050B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B825821FBC77940097050B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B825891FBC77940097050B;
+			remoteInfo = "wifiHelper-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14B825BE1FBC77B20097050B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14B825BD1FBC77B20097050B /* WifiHelper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14B8258A1FBC77940097050B /* wifiHelper-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wifiHelper-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B8258D1FBC77940097050B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14B8258F1FBC77940097050B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14B825921FBC77940097050B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B825941FBC77940097050B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B825971FBC77940097050B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B825991FBC77940097050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B8259E1FBC77940097050B /* wifiHelper-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wifiHelper-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B825A21FBC77940097050B /* wifiHelper_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiHelper_iOSTests.swift; sourceTree = "<group>"; };
+		14B825A41FBC77940097050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B825A91FBC77940097050B /* wifiHelper-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wifiHelper-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B825AD1FBC77940097050B /* wifiHelper_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiHelper_iOSUITests.swift; sourceTree = "<group>"; };
+		14B825AF1FBC77940097050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B825BB1FBC77B20097050B /* WifiHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WifiHelper.framework; path = "wifiHelper-iOS/WifiHelper.framework"; sourceTree = "<group>"; };
+		14B825BF1FBC79130097050B /* wifiHelper-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "wifiHelper-iOS.entitlements"; sourceTree = "<group>"; };
+		14B825C31FBC7A6F0097050B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B825871FBC77940097050B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B825BC1FBC77B20097050B /* WifiHelper.framework in Frameworks */,
+				14B825C41FBC7A6F0097050B /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B8259B1FBC77940097050B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B825A61FBC77940097050B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B825811FBC77940097050B = {
+			isa = PBXGroup;
+			children = (
+				14B825BB1FBC77B20097050B /* WifiHelper.framework */,
+				14B8258C1FBC77940097050B /* wifiHelper-iOS */,
+				14B825A11FBC77940097050B /* wifiHelper-iOSTests */,
+				14B825AC1FBC77940097050B /* wifiHelper-iOSUITests */,
+				14B8258B1FBC77940097050B /* Products */,
+				14B825C01FBC7A030097050B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14B8258B1FBC77940097050B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B8258A1FBC77940097050B /* wifiHelper-iOS.app */,
+				14B8259E1FBC77940097050B /* wifiHelper-iOSTests.xctest */,
+				14B825A91FBC77940097050B /* wifiHelper-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8258C1FBC77940097050B /* wifiHelper-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				14B825BF1FBC79130097050B /* wifiHelper-iOS.entitlements */,
+				14B8258D1FBC77940097050B /* AppDelegate.swift */,
+				14B8258F1FBC77940097050B /* ViewController.swift */,
+				14B825911FBC77940097050B /* Main.storyboard */,
+				14B825941FBC77940097050B /* Assets.xcassets */,
+				14B825961FBC77940097050B /* LaunchScreen.storyboard */,
+				14B825991FBC77940097050B /* Info.plist */,
+			);
+			path = "wifiHelper-iOS";
+			sourceTree = "<group>";
+		};
+		14B825A11FBC77940097050B /* wifiHelper-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				14B825A21FBC77940097050B /* wifiHelper_iOSTests.swift */,
+				14B825A41FBC77940097050B /* Info.plist */,
+			);
+			path = "wifiHelper-iOSTests";
+			sourceTree = "<group>";
+		};
+		14B825AC1FBC77940097050B /* wifiHelper-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14B825AD1FBC77940097050B /* wifiHelper_iOSUITests.swift */,
+				14B825AF1FBC77940097050B /* Info.plist */,
+			);
+			path = "wifiHelper-iOSUITests";
+			sourceTree = "<group>";
+		};
+		14B825C01FBC7A030097050B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B825C31FBC7A6F0097050B /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B825891FBC77940097050B /* wifiHelper-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B825B21FBC77940097050B /* Build configuration list for PBXNativeTarget "wifiHelper-iOS" */;
+			buildPhases = (
+				14B825861FBC77940097050B /* Sources */,
+				14B825871FBC77940097050B /* Frameworks */,
+				14B825881FBC77940097050B /* Resources */,
+				14B825BE1FBC77B20097050B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wifiHelper-iOS";
+			productName = "wifiHelper-iOS";
+			productReference = 14B8258A1FBC77940097050B /* wifiHelper-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14B8259D1FBC77940097050B /* wifiHelper-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B825B51FBC77940097050B /* Build configuration list for PBXNativeTarget "wifiHelper-iOSTests" */;
+			buildPhases = (
+				14B8259A1FBC77940097050B /* Sources */,
+				14B8259B1FBC77940097050B /* Frameworks */,
+				14B8259C1FBC77940097050B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B825A01FBC77940097050B /* PBXTargetDependency */,
+			);
+			name = "wifiHelper-iOSTests";
+			productName = "wifiHelper-iOSTests";
+			productReference = 14B8259E1FBC77940097050B /* wifiHelper-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14B825A81FBC77940097050B /* wifiHelper-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B825B81FBC77940097050B /* Build configuration list for PBXNativeTarget "wifiHelper-iOSUITests" */;
+			buildPhases = (
+				14B825A51FBC77940097050B /* Sources */,
+				14B825A61FBC77940097050B /* Frameworks */,
+				14B825A71FBC77940097050B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B825AB1FBC77940097050B /* PBXTargetDependency */,
+			);
+			name = "wifiHelper-iOSUITests";
+			productName = "wifiHelper-iOSUITests";
+			productReference = 14B825A91FBC77940097050B /* wifiHelper-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B825821FBC77940097050B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "conol, Inc";
+				TargetAttributes = {
+					14B825891FBC77940097050B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+					14B8259D1FBC77940097050B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14B825891FBC77940097050B;
+					};
+					14B825A81FBC77940097050B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14B825891FBC77940097050B;
+					};
+				};
+			};
+			buildConfigurationList = 14B825851FBC77940097050B /* Build configuration list for PBXProject "wifiHelper-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B825811FBC77940097050B;
+			productRefGroup = 14B8258B1FBC77940097050B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B825891FBC77940097050B /* wifiHelper-iOS */,
+				14B8259D1FBC77940097050B /* wifiHelper-iOSTests */,
+				14B825A81FBC77940097050B /* wifiHelper-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B825881FBC77940097050B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B825981FBC77940097050B /* LaunchScreen.storyboard in Resources */,
+				14B825951FBC77940097050B /* Assets.xcassets in Resources */,
+				14B825931FBC77940097050B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B8259C1FBC77940097050B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B825A71FBC77940097050B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B825861FBC77940097050B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B825901FBC77940097050B /* ViewController.swift in Sources */,
+				14B8258E1FBC77940097050B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B8259A1FBC77940097050B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B825A31FBC77940097050B /* wifiHelper_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B825A51FBC77940097050B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B825AE1FBC77940097050B /* wifiHelper_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B825A01FBC77940097050B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B825891FBC77940097050B /* wifiHelper-iOS */;
+			targetProxy = 14B8259F1FBC77940097050B /* PBXContainerItemProxy */;
+		};
+		14B825AB1FBC77940097050B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B825891FBC77940097050B /* wifiHelper-iOS */;
+			targetProxy = 14B825AA1FBC77940097050B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B825911FBC77940097050B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B825921FBC77940097050B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B825961FBC77940097050B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B825971FBC77940097050B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B825B01FBC77940097050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14B825B11FBC77940097050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B825B31FBC77940097050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "wifiHelper-iOS/wifiHelper-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68WVY52GZ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wifiHelper-iOS",
+				);
+				INFOPLIST_FILE = "wifiHelper-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.conol.apps.wifiHelper-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B825B41FBC77940097050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "wifiHelper-iOS/wifiHelper-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68WVY52GZ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wifiHelper-iOS",
+				);
+				INFOPLIST_FILE = "wifiHelper-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.conol.apps.wifiHelper-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14B825B61FBC77940097050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68WVY52GZ2;
+				INFOPLIST_FILE = "wifiHelper-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.conol.apps.wifiHelper-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifiHelper-iOS.app/wifiHelper-iOS";
+			};
+			name = Debug;
+		};
+		14B825B71FBC77940097050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68WVY52GZ2;
+				INFOPLIST_FILE = "wifiHelper-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.conol.apps.wifiHelper-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifiHelper-iOS.app/wifiHelper-iOS";
+			};
+			name = Release;
+		};
+		14B825B91FBC77940097050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68WVY52GZ2;
+				INFOPLIST_FILE = "wifiHelper-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.conol.apps.wifiHelper-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wifiHelper-iOS";
+			};
+			name = Debug;
+		};
+		14B825BA1FBC77940097050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68WVY52GZ2;
+				INFOPLIST_FILE = "wifiHelper-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.conol.apps.wifiHelper-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wifiHelper-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B825851FBC77940097050B /* Build configuration list for PBXProject "wifiHelper-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B825B01FBC77940097050B /* Debug */,
+				14B825B11FBC77940097050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B825B21FBC77940097050B /* Build configuration list for PBXNativeTarget "wifiHelper-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B825B31FBC77940097050B /* Debug */,
+				14B825B41FBC77940097050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B825B51FBC77940097050B /* Build configuration list for PBXNativeTarget "wifiHelper-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B825B61FBC77940097050B /* Debug */,
+				14B825B71FBC77940097050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B825B81FBC77940097050B /* Build configuration list for PBXNativeTarget "wifiHelper-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B825B91FBC77940097050B /* Debug */,
+				14B825BA1FBC77940097050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B825821FBC77940097050B /* Project object */;
+}
